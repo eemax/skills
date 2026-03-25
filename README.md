@@ -30,6 +30,22 @@ Break a technical design into phased, dependency-ordered tasks. Every task follo
 
 Each story phase is independently shippable — Foundation + any single story = working software.
 
+## ExecPlan Mode
+
+A structured planning and execution skill for complex, multi-step work. Produces a self-contained living ExecPlan with milestones, a decision log, surprises & discoveries, and evidence-based validation. Triggers on architectural decisions, refactoring, migrations, multi-file edits, or anything with non-trivial risk.
+
+## Spec Authoring
+
+Bootstrap spec-driven development for a new project. Analyzes an existing codebase to generate two project-specific artifacts: a **SPEC.md** (domain model, state machines, algorithms, goals) and a **WORKFLOW.md** (operational runbook with status map, prompt template, workpad template, and guardrails).
+
+## Spec-Driven Execution
+
+Accept a specification or plan document, decompose it into tasks, and execute them milestone-by-milestone. Maintains a persistent workpad as the single source of truth for progress — any agent can pick it up and continue. Works with SPEC.md, PRDs, technical designs, or issue bodies.
+
+## Symphony Loop
+
+Full autonomous orchestration: poll a tracker, claim issues, execute spec-driven development, track progress via workpad, handle PR feedback and rework, and hand off for review. Composes `spec-driven-execution` into a continuous loop with state management, retry/backoff, and reconciliation.
+
 ## Inspiration Skills
 
 A curated set of skills sourced from [mattpocock/skills](https://github.com/mattpocock/skills). These cover various development workflows: PRD writing, TDD, code architecture review, refactoring, issue triage, and more. Browse them for ideas or drop them into your harness as-is.
